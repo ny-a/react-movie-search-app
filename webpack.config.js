@@ -7,7 +7,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(js|jsx|ts|tsx)$/,
+                test: /\.[jt]sx?$/,
                 exclude: /(node_modules|bower_components)/,
                 loader: "babel-loader",
                 options: {presets: ["@babel/env"]}
